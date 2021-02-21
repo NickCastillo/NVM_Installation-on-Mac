@@ -5,6 +5,8 @@ As it turns out, NVM isn't compatible with homebrew, this is stated on the [offi
 
 + `brew cleanup` (As a good practice, do this at your own risk though🥴)
 
+For the following line of code, you will need to have either a *.zshrc* file if you use the Zsh Shell, a *.bashrc* file if you use a Bash Shell or probably a *.profile* file if you use any other shell.
+
 + `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash` (This installs nvm or, if you already have it, upgrades it)
 
 + Now let's see if it was installed correctly: `command -v nvm`
